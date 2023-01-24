@@ -70,7 +70,7 @@ const Home = ({
                     <Row title="Top Rated" movies={topRated} />
                     <Row title="Action Thrillers" movies={actionMovies} />
                     {/* My List */}
-                    {list.length > 0 && <Row title="My List" movies={list} />}
+                    {/*{list.length > 0 && <Row title="My List" movies={list} />}*/}
 
                     <Row title="Comedies" movies={comedyMovies} />
                     <Row title="Scary Movies" movies={horrorMovies} />

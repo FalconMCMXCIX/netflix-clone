@@ -9,6 +9,8 @@ interface Inputs {
     password: string
 }
 
+
+
 function Login() {
     const [login, setLogin] = useState(false)
     const { signIn, signUp } = useAuth()
